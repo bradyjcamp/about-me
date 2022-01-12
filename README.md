@@ -12,6 +12,6 @@ This project is about creating a web page about me using HTML, CSS, and Javascri
 
 - Duckett, John. JAVASCRIPT & JQUERY: interactive front-end web development. John Wiley and Sons, 2014.
 
-- “Grand Canyon University Purple Seal Magnet.” GCU Lope Shops, https://lopeshops.gcu.edu/grand-canyon-university-purple-seal-magnet/
+- “Grand Canyon University Purple Seal Magnet.” GCU Lope Shops,https://lopeshops.gcu.edu/grand-canyon-university-purple-seal-magnet/
 
 - “Home.” Rental Cars at Low, Affordable Rates | Enterprise Rent-A-Car, https://www.enterprise.com/en/home.html.
