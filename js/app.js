@@ -75,7 +75,7 @@ questionThree();
 
 
 
-
+function questionFour(){
   let answerFour = prompt('Do I have a college degree?').toLowerCase();
 
   if(answerFour === 'yes' || answerFour === 'y') {
@@ -89,7 +89,8 @@ questionThree();
   // console.log('Please follow the instructions and answer yes or no');
     alert('Please follow the instructions and answer yes or no');
   }
-
+}
+questionFour();
 
 
 
