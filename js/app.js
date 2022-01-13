@@ -53,7 +53,7 @@ questionTwo();
 
 
 
-
+function questionThree(){
   let answerThree = prompt('Am I at least 6 feet tall?').toLowerCase();
 
   if(answerThree === 'yes' || answerThree === 'y') {
@@ -67,7 +67,8 @@ questionTwo();
   // console.log('Please follow the instructions and answer yes or no');
     alert('Please follow the instructions and answer yes or no');
   }
-
+}
+questionThree();
 
 
 
