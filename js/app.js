@@ -31,7 +31,7 @@ questionOne();
 
 
 
-
+function questionTwo(){
   let answerTwo = prompt('Do I have any siblings?').toLowerCase();
 
   if(answerTwo === 'yes' || answerTwo === 'y') {
@@ -45,8 +45,8 @@ questionOne();
   // console.log('Please follow the instructions and answer yes or no');
     alert('Please follow the instructions and answer yes or no');
   }
-
-
+}
+questionTwo();
 
 
 
