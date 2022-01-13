@@ -96,7 +96,7 @@ questionFour();
 
 
 
-
+function questionFive(){
   let answerFive = prompt('Am I a good artist?').toLowerCase();
 
   if(answerFive === 'yes' || answerFive === 'y') {
@@ -110,7 +110,8 @@ questionFour();
   // console.log('Please follow the instructions and answer yes or no');
     alert('Please follow the instructions and answer yes or no');
   }
-
+}
+questionFive();
 
 
 
