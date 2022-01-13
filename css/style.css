@@ -77,12 +77,13 @@ h4{
 #education{
   margin-left: 5%;
   background-color: ivory;
-  padding-left: 1%;
+  padding-left: 2%;
   padding-right: 10%;
   padding-top: 1%;
   padding-bottom: 1%;
   border-bottom-left-radius:20px;
   border-top-left-radius: 20px;
+  list-style-type: disc;
 }
 
 #source-gcu{
@@ -107,12 +108,13 @@ h5 {
 #job{
   margin-left: 5%;
   background-color: ivory;
-  padding-left: 1%;
+  padding-left: 2%;
   padding-right: 10%;
   padding-top: 1%;
   padding-bottom: 1%;
   border-bottom-left-radius:20px;
   border-top-left-radius: 20px;
+  list-style-type: disc;
 }
 
 #source-enterprise{
@@ -146,3 +148,16 @@ h6{
 
 }
 
+#fav {
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: ivory;
+  padding-left: 2%;
+  padding-right: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-bottom-left-radius:20px;
+  border-top-left-radius: 20px;
+  list-style-type:decimal;
+}
