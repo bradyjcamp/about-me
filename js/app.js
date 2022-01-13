@@ -126,7 +126,7 @@ alert('This is fun! Let\'s keep it going, ' + user + '!');
 
 
 
-
+function questionSix(){
   let numberGuesses = 4;
   let myNumber = 6;
   let rightNumber = false;
@@ -147,6 +147,8 @@ alert('This is fun! Let\'s keep it going, ' + user + '!');
       alert('Whoops! Too many guesses! Answer was 6.');
     }
   }
+}
+questionSix();
 
 
 
