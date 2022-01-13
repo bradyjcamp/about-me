@@ -156,7 +156,7 @@ questionSix();
 
 
 
-
+function questionSeven(){
   let guessLimit = 6;
   let favFood = ['raising cane\'s', 'chick-fil-a', 'taco bell'];
 
@@ -175,7 +175,8 @@ questionSix();
       alert('Out of guesses!');
     }
   }
-
+}
+questionSeven();
 
 
 
