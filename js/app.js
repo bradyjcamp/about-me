@@ -11,7 +11,7 @@ alert('Welcome ' + user + ', glad you are here! Please answer these next questio
 
 
 
-
+function questionOne(){
   let answerOne = prompt('Am I from Washington?').toLowerCase();
 
   if(answerOne === 'yes' || answerOne === 'y') {
@@ -26,12 +26,12 @@ alert('Welcome ' + user + ', glad you are here! Please answer these next questio
   // console.log('Please follow the instructions and answer yes or no');
     alert('Please follow the instructions and answer yes or no');
   }
+}
+questionOne();
 
 
 
-
-
-
+function questionTwo(){
   let answerTwo = prompt('Do I have any siblings?').toLowerCase();
 
   if(answerTwo === 'yes' || answerTwo === 'y') {
@@ -45,15 +45,15 @@ alert('Welcome ' + user + ', glad you are here! Please answer these next questio
   // console.log('Please follow the instructions and answer yes or no');
     alert('Please follow the instructions and answer yes or no');
   }
+}
+questionTwo();
 
 
 
 
 
 
-
-
-
+function questionThree(){
   let answerThree = prompt('Am I at least 6 feet tall?').toLowerCase();
 
   if(answerThree === 'yes' || answerThree === 'y') {
@@ -67,14 +67,15 @@ alert('Welcome ' + user + ', glad you are here! Please answer these next questio
   // console.log('Please follow the instructions and answer yes or no');
     alert('Please follow the instructions and answer yes or no');
   }
+}
+questionThree();
 
 
 
 
 
 
-
-
+function questionFour(){
   let answerFour = prompt('Do I have a college degree?').toLowerCase();
 
   if(answerFour === 'yes' || answerFour === 'y') {
@@ -88,13 +89,14 @@ alert('Welcome ' + user + ', glad you are here! Please answer these next questio
   // console.log('Please follow the instructions and answer yes or no');
     alert('Please follow the instructions and answer yes or no');
   }
+}
+questionFour();
 
 
 
 
 
-
-
+function questionFive(){
   let answerFive = prompt('Am I a good artist?').toLowerCase();
 
   if(answerFive === 'yes' || answerFive === 'y') {
@@ -108,7 +110,8 @@ alert('Welcome ' + user + ', glad you are here! Please answer these next questio
   // console.log('Please follow the instructions and answer yes or no');
     alert('Please follow the instructions and answer yes or no');
   }
-
+}
+questionFive();
 
 
 
@@ -123,7 +126,7 @@ alert('This is fun! Let\'s keep it going, ' + user + '!');
 
 
 
-
+function questionSix(){
   let numberGuesses = 4;
   let myNumber = 6;
   let rightNumber = false;
@@ -144,6 +147,8 @@ alert('This is fun! Let\'s keep it going, ' + user + '!');
       alert('Whoops! Too many guesses! Answer was 6.');
     }
   }
+}
+questionSix();
 
 
 
@@ -151,7 +156,7 @@ alert('This is fun! Let\'s keep it going, ' + user + '!');
 
 
 
-
+function questionSeven(){
   let guessLimit = 6;
   let favFood = ['raising cane\'s', 'chick-fil-a', 'taco bell'];
 
@@ -170,7 +175,8 @@ alert('This is fun! Let\'s keep it going, ' + user + '!');
       alert('Out of guesses!');
     }
   }
-
+}
+questionSeven();
 
 
 
