@@ -11,7 +11,7 @@ alert('Welcome ' + user + ', glad you are here! Please answer these next questio
 
 
 
-
+function questionOne(){
   let answerOne = prompt('Am I from Washington?').toLowerCase();
 
   if(answerOne === 'yes' || answerOne === 'y') {
@@ -26,8 +26,8 @@ alert('Welcome ' + user + ', glad you are here! Please answer these next questio
   // console.log('Please follow the instructions and answer yes or no');
     alert('Please follow the instructions and answer yes or no');
   }
-
-
+}
+questionOne();
 
 
 
