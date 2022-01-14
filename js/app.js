@@ -3,8 +3,8 @@
 let userScore = 0;
 let user = prompt('What is your name?');
 document.getElementById('name').innerHTML = user;
-alert('Welcome ' + user + ', glad you are here! Please answer these next questions using "yes" or "no", or "y" or "n".');
-
+alert('Welcome ' + user + ' , my name is Brady, glad you are here!');
+alert('Let\'s play some guessing games so you can get to know me.  Please answer these next questions using "yes" or "no", or "y" or "n".');
 
 
 
@@ -143,22 +143,17 @@ function questionSix(){
       alert('Too low!');
     } else if (userGuess > myNumber) {
       alert('Too high!');
-    } if(numberGuesses === 0){
+    } else{
+      (numberGuesses === 0);
       alert('Whoops! Too many guesses! Answer was 6.');
     }
   }
 }
 questionSix();
 
-
-
-
-
-
-
 function questionSeven(){
   let guessLimit = 6;
-  let favFood = ['raising cane\'s', 'chick-fil-a', 'taco bell'];
+  const favFood = ['raising cane\'s', 'chick-fil-a', 'taco bell'];
 
   circle: while(guessLimit){
     let foodAnswer = prompt('What is one of my top three favorite fast food restaurants?').toLowerCase();
