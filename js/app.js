@@ -121,14 +121,14 @@ function questionSeven() {
       if (foodAnswer === favFood[i]) {
         userScore++;
         alert(
-          'That is correct! Acceptable answers were raising cane\'s, chick-fil-a, and taco bell!'
+          'That is correct! Acceptable answers were Raising Cane\'s, Chick-fil-a, and Taco Bell!'
         );
         break circle;
       }
     }
     alert('Oops, you are wrong.');
     if (guessLimit === 0) {
-      alert('Out of guesses!');
+      alert('Out of guesses! My top three fast food restaurants are Raising Cane\'s, Chick-fil-a, and Taco Bell!');
     }
   }
 }
