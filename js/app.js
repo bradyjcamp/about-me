@@ -13,7 +13,6 @@ function questionOne() {
 
   if (answerOne === 'yes' || answerOne === 'y') {
     userScore++;
-    console.log('user score after Q1.' , userScore);
     alert('That is correct!');
   } else if (answerOne === 'no' || answerOne === 'n') {
     alert('Oops wrong answer! I am in fact from Arlington, Washington!');
@@ -28,7 +27,6 @@ function questionTwo() {
 
   if (answerTwo === 'yes' || answerTwo === 'y') {
     userScore++;
-    console.log('user score after Q2.' , userScore);
     alert(
       'Correct! I have two, an older brother, and an older sister. Yes, I am the youngest therefore the favorite.'
     );
@@ -44,7 +42,6 @@ function questionThree() {
   let answerThree = prompt('Am I at least 6 feet tall?').toLowerCase();
 
   if (answerThree === 'yes' || answerThree === 'y') {
-    console.log('user score after Q3.' , userScore);
     alert('I wish... I am just shy coming in at 5 feet 10 inches.');
   } else if (answerThree === 'no' || answerThree === 'n') {
     userScore++;
@@ -60,7 +57,6 @@ function questionFour() {
 
   if (answerFour === 'yes' || answerFour === 'y') {
     userScore++;
-    console.log('user score after Q4.' , userScore);
     alert('Indeed I do! I have my Bachelors Degree in Business Management.');
   } else if (answerFour === 'no' || answerFour === 'n') {
     alert('Incorrect. I have my Bachelors Degree in Business Management.');
@@ -74,9 +70,7 @@ function questionFive() {
   let answerFive = prompt('Am I a good artist?').toLowerCase();
 
   if (answerFive === 'yes' || answerFive === 'y') {
-    console.log('user score after Q5.' , userScore);
-    alert(
-      'Not even close! If you could take one look at my handwriting you would know that I am no artist.');
+    alert('Not even close! If you could take one look at my handwriting you would know that I am no artist.');
   } else if (answerFive === 'no' || answerFive === 'n') {
     userScore++;
     alert(
@@ -101,7 +95,6 @@ function questionSix() {
     if (+userGuess === myNumber) {
       rightNumber = true;
       userScore++;
-      console.log('user score after Q6.' , userScore);
       alert('You got it right!');
     } else if (userGuess < myNumber) {
       alert('Too low!');
@@ -127,7 +120,6 @@ function questionSeven() {
     for (let i = 0; i < favFood.length; i++) {
       if (foodAnswer === favFood[i]) {
         userScore++;
-        console.log('user score after Q7.' , userScore);
         alert(
           'That is correct! Acceptable answers were raising cane\'s, chick-fil-a, and taco bell!'
         );
@@ -141,6 +133,5 @@ function questionSeven() {
   }
 }
 questionSeven();
-console.log(userScore, 'before final alert');
-alert(
-  'Here is your final score ' + user +'. You got ' + userScore +' out of 7 correct!');
+
+alert('Here is your final score ' + user +'. You got ' + userScore +' out of 7 correct!');

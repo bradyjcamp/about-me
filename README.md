@@ -15,4 +15,3 @@ This project is about creating a web page about me using HTML, CSS, and Javascri
 - Duckett, John. JAVASCRIPT & JQUERY: interactive front-end web development. John Wiley and Sons, 2014.
 
 - [Enterprise reference for logo image](https://www.enterprise.com/en/home.html.)
-
