@@ -6,12 +6,13 @@ This project is about creating a web page about me using HTML, CSS, and Javascri
 
 ### Author: Brady Camp
 
+- Contributors: George Rangel
+
 ### Links and Resources
 
 - Duckett, John. HTML & CSS: Design and Build Websites. John Wiley and Sons, 2014.
 
 - Duckett, John. JAVASCRIPT & JQUERY: interactive front-end web development. John Wiley and Sons, 2014.
 
-- “Grand Canyon University Purple Seal Magnet.” GCU Lope Shops,https://lopeshops.gcu.edu/grand-canyon-university-purple-seal-magnet/
+- [Enterprise reference for logo image](https://www.enterprise.com/en/home.html.)
 
-- “Home.” Rental Cars at Low, Affordable Rates | Enterprise Rent-A-Car, https://www.enterprise.com/en/home.html.
