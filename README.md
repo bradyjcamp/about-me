@@ -4,6 +4,8 @@
 
 This project is about creating a web page about me using HTML, CSS, and Javascript. It uses **variables**, **if else** functions, and more, to capture user input and display **alerts** based on these inputs. It also has features to make the webpage feel more personal.
 
+[Click here to see the deployed website](https://bradyjcamp.github.io/about-me/)
+
 ### Author: Brady Camp
 
 - Contributors: George Rangel
